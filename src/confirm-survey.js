@@ -14,6 +14,7 @@ function ConfirmSurvey() {
 		history.push('/');
 	}
 	return (
+		
 		<>
 			{survey.questions.map((q) => (
                 <>
